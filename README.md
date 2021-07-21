@@ -26,8 +26,21 @@ created using total proteomic data from the two papers and our total proteomic d
 We calculated the ratio of the differential proteins we identified to the total differnetial 
 proteins of the two studies.
 
-## Making Supplemental Table 3
+## Making Supplemental Table 1
+Our experimental data was loaded using the longitudinal CLL package. Data was then saved 
+as an excel document.
+
+## Making Supplemental Table 4
 Relevant supplementary tables from Mayer et al. and Johnston et al. were downloaded. 
 Data was parsed and sorted into upregulated and downregulated proteins based on the 
 qualifications from each paper. Using GProfiler we determined the KEGG pathways for each 
 paper's upregulated and downregulated proteins.
+
+## Mayer Abundance Comparison
+Our experimental data was loaded using the longitudinal CLL package. The relevant 
+supplementary table from Mayer et al. was downloaded. The data from Mayer et al. 
+was filtered to only include healthy subjects. Abundance values were averaged for 
+the 3 healthy subjects. The table was sorted based on the average abundance value.
+The sorted table was split into 4 dataframes based to separate the data into quartiles.
+We then found the intersection for each quartile and the ratio of common protiens to 
+the total number of proteins in the quartile.
