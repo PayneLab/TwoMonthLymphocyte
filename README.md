@@ -30,6 +30,13 @@ proteins of the two studies.
 Our experimental data was loaded using the longitudinal CLL package. Data was then saved 
 as an excel document.
 
+## Making Supplemental Table 2
+Our experimental data was loaded using the longitudinal CLL package. Data was filtered 
+to include B and T cells and proteins seen in at least half the replicates. 
+The data was normalized by log 2 transformation. T tests were run on the data and 
+upregualted proteins were identified. Using GProfiler, a KEGG analysis was run and the output
+was saved as a table.
+
 ## Making Supplemental Table 4
 Relevant supplementary tables from Mayer et al. and Johnston et al. were downloaded. 
 Data was parsed and sorted into upregulated and downregulated proteins based on the 
